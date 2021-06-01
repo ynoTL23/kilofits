@@ -23,11 +23,21 @@
   }
 
   .quantity {
+    display: flex;
     padding-left: 20px;
+
+    .quantity-modifier {
+      cursor: pointer;
+    }
+
+    .value {
+      margin: 0 10px;
+    }
   }
 
   .remove-button {
     padding-left: 12px;
+    color: red;
     cursor: pointer;
   }
 }
